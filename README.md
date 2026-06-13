@@ -25,6 +25,7 @@ A comprehensive collection of **DSA implementations** in Java with detailed docu
 | [**GraphTheory**](./GraphTheory/) | BFS, DFS, Dijkstra, Bellman-Ford, Prim's MST, Topological Sort, Tarjan's, SCC | ✅ | ✅ |
 | [**huffman coding**](./huffman%20coding/) | Huffman Tree, Encoding, Decoding | ✅ | ✅ |
 | [**OOP**](./OOP/) | Classes, Inheritance, Polymorphism, Interfaces, Enums | ✅ | — |
+| [**SQL**](./SQL/) | Relational DB, DDL/DML/DQL, Joins, Subqueries, Indexes, Transactions, Normalization, Design | ✅ | — |
 
 ---
 
@@ -61,6 +62,18 @@ A comprehensive collection of **DSA implementations** in Java with detailed docu
 - Inheritance, Polymorphism, Abstraction
 - Interfaces, Access Modifiers, Enumerations
 - `static`, `final`, Packages
+
+### SQL & Relational Databases
+- Database fundamentals, RDBMS vs NoSQL, relational concepts
+- DDL / DML / DQL — CREATE, INSERT, SELECT, UPDATE, DELETE
+- Joins (INNER, LEFT, RIGHT, FULL OUTER, CROSS, SELF)
+- Subqueries, CTEs, Window Functions, Set Operators
+- Indexing (B-Tree, Composite, Partial, Covering) & Query Optimization
+- Views, Materialized Views, Stored Procedures, Triggers, UDFs
+- Transactions, ACID, Isolation Levels, Deadlocks
+- Normalization (1NF → BCNF), Database Design, ER Diagrams
+- JSON Processing, Full-Text Search, Partitioning, Replication
+- Security, Backup & Recovery, Interview Preparation
 
 ---
 
