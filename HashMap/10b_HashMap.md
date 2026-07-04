@@ -2,6 +2,8 @@
 
 > **Source:** Handwritten DSA Notes – Pages 176–177
 
+> Reference : https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/
+
 ---
 
 ## 1. What is a HashMap?
@@ -181,13 +183,13 @@ public boolean equals(Object obj) {
 
 ## 4. Complexity
 
-| Operation | Average | Worst (many collisions) |
-|-----------|---------|------------------------|
-| `put()` | O(1) | O(n) |
-| `get()` | O(1) | O(n) |
-| `remove()` | O(1) | O(n) |
-| `containsKey()` | O(1) | O(n) |
-| Iteration | O(n + buckets) | — |
+| Operation       | Average        | Worst (many collisions) |
+| --------------- | -------------- | ----------------------- |
+| `put()`         | O(1)           | O(n)                    |
+| `get()`         | O(1)           | O(n)                    |
+| `remove()`      | O(1)           | O(n)                    |
+| `containsKey()` | O(1)           | O(n)                    |
+| Iteration       | O(n + buckets) | —                       |
 
 > **Java 8+:** When a bucket's chain exceeds 8 entries, it converts to a **Red-Black Tree** → worst case improves from O(n) to O(log n).
 
